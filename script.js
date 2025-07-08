@@ -97,6 +97,19 @@ else if(cdur>56.25&&cdur<58.3){
   
 }
 
+else if(cdur>58.25&&cdur<61.3){
+    document.querySelector("#t1").innerHTML="The ocean's <k><p class='r';>colors </p> </k>  ";  
+    document.querySelector("#t2").innerHTML="<k>on your face</k>";
+}
+else if(cdur>61.25&&cdur<66.3){
+    document.querySelector("#t1").innerHTML="I'll leave my<k>heart</k>  ";  
+    document.querySelector("#t2").innerHTML="<k>with your air</k>";
+}
+else if(cdur>66.25&&cdur<69.3){
+    document.querySelector("#t1").innerHTML="so let me <k>Fly</k>  ";  
+    document.querySelector("#t2").innerHTML="<k>  withyou</k>";
+    document.querySelector("#plane").style.animationName="fly";
+}
 else{
     document.querySelector("#t1").innerHTML="";
     document.querySelector("#t2").innerHTML="";
