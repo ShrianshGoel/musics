@@ -239,8 +239,46 @@ opacity:1;
     }
     70%{
         position:absolute;
-   
-      
+  
 
     }
 }
+.r {
+    background: url('./text.avif');
+    -webkit-background-clip: text; /* For WebKit browsers */
+    color: transparent;
+display: inline-block;
+background-size: cover;
+  }
+  #plane{
+    width: 40vh;
+    height: 30vh;
+    background: url('./file.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 9999;
+    filter:drop-shadow(0 0 40px black);
+    animation: 0;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    left: -25%;
+    bottom:0%;
+    transform: rotate(20deg);
+  }
+  @keyframes fly{
+    50%{
+left:40%;
+bottom:62%;
+transform: rotate(0deg);
+    }
+    55%{
+        transform: rotate(39deg);  
+    }
+  
+    100%{
+        left: 140%;
+        bottom:32%;
+    }
+  }
+  
